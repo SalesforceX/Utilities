@@ -18,13 +18,13 @@
 	```
 	This will return you all the fields for a SObject with its API Names and Labels.
 
-	3. Get fields Map<String, String>; Field Name to it's API Map, given a filter of DisplayTypes to it.
+3. Get fields Map<String, String>; Field Name to it's API Map, given a filter of DisplayTypes to it.
 	```java
 	public static Map<String, String> getFieldsMap(String objectAPI, Set<DisplayType> types) {...}
 	```
 	In this method, pass DisplayType's Set to filter the results. This will give you only the Map of fields for desired Data/DisplayType.
 
-4 Pass SObject API and get the Label.
+4. Pass SObject API and get the Label.
 	```java
 	public static String getObjectName(String objectAPI) {...}
 	```
