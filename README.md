@@ -3,7 +3,7 @@
 
 ## Features
 
-* Get Org-wide SObjects Map<String, String>; SObject Name to its API Map.
+### Get Org-wide SObjects Map<String, String>; SObject Name to its API Map.
 ```java
 public static Map<String, String> getOrgWideObjectsMap(Boolean includeStandard, Boolean includeCustom, Boolean includeManaged) {...}
 ```
