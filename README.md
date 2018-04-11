@@ -1,7 +1,7 @@
-### Utilities
+## Utilities
 > Salesforce Utilities for Rapid Development
 
-### Features
+## Features
 
 1. Get Org-wide SObjects Map<String, String>; SObject Name to its API Map.
 	```java
@@ -30,7 +30,7 @@
 	```
 	Simplest one. Pass the SObject API and get its Label/Name returned.
 
-### Extras
+## Extras
 1. Get all the Lookup Field names of an Object on its Child Object.
 	```java
 	public static Map<String, String> getLookupNamesMap(String childObjectAPI, String parentObjectAPI) {...}
@@ -49,7 +49,7 @@
 	```
 	In this method, pass the SObject API and it will return all the Child Relationship for the SObject.
 
-### Clone the entire project:
+## Clone the entire project
 ```console
 git clone https://github.com/SalesforceX/Utilities.git
 ```
