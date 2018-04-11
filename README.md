@@ -7,9 +7,9 @@
 	```java
 	public static Map<String, String> getOrgWideObjectsMap(Boolean includeStandard, Boolean includeCustom, Boolean includeManaged) {...}
 	```
-	* includeStandard: pass this parameter as true to get all the **Standard Objects** returned.
-	* includeCustom: pass this parameter as true to get all the **Custom Objects** returned.
-	* includeManaged: pass this parameter as true to get all the **Managed Objects** returned.
+	* _includeStandard_: pass this parameter as true to get all the **Standard Objects** returned.
+	* _includeCustom_: pass this parameter as true to get all the **Custom Objects** returned.
+	* _includeManaged_: pass this parameter as true to get all the **Managed Objects** returned.
 
 
 2. Get fields Map<String, String>; Field Name to it's API Map.
